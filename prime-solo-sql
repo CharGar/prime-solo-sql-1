@@ -1,1 +1,18 @@
 
+1) SELECT  username from syntax_practice where city = 'chicago’;
+
+2) SELECT * FROM syntax_practice WHERE username LIKE '%a%';
+
+3) UPDATE syntax_practice set account_balance='10.00' where transactions_attempted='0' and account_balance='0.00’;
+
+4) select * from syntax_practice where transactions_attempted >=9;
+
+5) SELECT username, account_balance from syntax_practice ORDER BY account_balance DESC limit 3;
+
+6) SELECT username, account_balance from syntax_practice ORDER BY account_balance limit 3;
+
+7) select username from syntax_practice where account_balance >100.00;
+
+8) INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance, user_id) VALUES ('chargar', 'mpls', '10', '10', '1000000.00', '9' );
+
+9) DELETE from syntax_practice where city = 'miami' or city = 'phoenix' and transactions_completed <5;
